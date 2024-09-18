@@ -155,6 +155,68 @@ body {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .card {
+        width: 90% fit-content;
+        align-content: center;
+    }
+
+    .card .search {
+        display: block;
+        justify-content: center;
+        width: 105%;
+    }
+
+    .card .search input {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 3px;
+    }
+
+    .search button {
+        width: 20%;
+    }
+
+    .details,
+    .col {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 90% fit-content;
+        align-content: center;
+    }
+
+    .card .search {
+        display: block;
+        justify-content: center;
+        width: 105%;
+    }
+
+    .card .search input {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 3px;
+    }
+
+    .search button {
+        width: 25%;
+    }
+
+    .details,
+    .col {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+    }
+}
+
+
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
