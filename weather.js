@@ -22,17 +22,17 @@ async function checkWeather(city) {
         const weatherCondition = data.weather[0].main;
 
         if (weatherCondition === "Clouds") {
-            weatherIcon.src = "weather images/cloud.256x180.png";
+            weatherIcon.src = "images/cloud.256x180.png";
         } else if (weatherCondition === "Clear") {
-            weatherIcon.src = "weather images/weather-clear-symbolic.256x256.png";
+            weatherIcon.src = "images/weather-clear-symbolic.256x256.png";
         } else if (weatherCondition === "Rain") {
-            weatherIcon.src = "weather images/sun-behind-rain-cloud.226x256.png";
+            weatherIcon.src = "images/sun-behind-rain-cloud.226x256.png";
         } else if (weatherCondition === "Drizzle") {
-            weatherIcon.src = "weather images/drizzle.png";
+            weatherIcon.src = "images/drizzle.png";
         } else if (weatherCondition === "Mist") {
-            weatherIcon.src = "weather images/mist.png";
+            weatherIcon.src = "images/mist.png";
         } else if (weatherCondition === "Snow") {
-            weatherIcon.src = "weather images/snow (1).png";
+            weatherIcon.src = "images/snow (1).png";
         }
 
         document.querySelector(".weather").style.display = "block";
