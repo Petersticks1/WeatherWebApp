@@ -13,8 +13,7 @@ body {
     overflow: hidden;
     /* display: flex;
     justify-content: center;
-    align-content: center; */ 
-    
+    align-content: center; */
 }
 
 .card {
@@ -156,6 +155,10 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+    body {
+        overflow: visible;
+        margin-bottom: 100px;
+    }
     .card {
         width: 90% fit-content;
         align-content: center;
@@ -186,6 +189,10 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    body {
+        overflow: visible;
+        margin-bottom: 100px;
+    }
     .card {
         width: 90% fit-content;
         align-content: center;
@@ -214,8 +221,6 @@ body {
         margin: 1rem;
     }
 }
-
-
 
 @keyframes gradient {
     0% {
